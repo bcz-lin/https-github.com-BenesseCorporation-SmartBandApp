@@ -1,0 +1,6 @@
+framework module WearProSDK {
+  umbrella header "WearProSDK.h"
+
+  export *
+  module * { export * }
+}
