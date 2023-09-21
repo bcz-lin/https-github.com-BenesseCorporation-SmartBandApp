@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  smartwatchneo
+
+  Created by 林国平 on 20.9.2023.
+  
+*/
+//S-00
+"Smart watch App" = "SmartWatchNEO";
+
+//S-02-1〜6
+"PopupButtonNext" ="次へ";
+"PopupButtonSettingNext" ="設定画面へ";
+"PopupButtonConnecting" ="接続する";
+"PopupButtonResetting" ="再設定する";
+"PopupButtonUndo"="いまは設定しない";
+
+//S-02-1
+"PopupTitle1" = "スマートフォンと\n「Smart Watch NEO」の\n接続を行います";
+"PopupMessage1" = "Bluetoothの確認が終わるまで\n少々お待ちください...";
+"PopupButtonNext" ="次へ";
+
+//S-02-2
+"PopupTitle2" = "Bluetoothを確認できました";
+"PopupMessage2" = "「Smart Watch NEO」を手元に用意\nいただき、次へお進みくだだい。";
+
+//S-02-3
+"PopupTitle3" = "BluetoothがOFFになっています";
+"PopupMessage3" = "スマートフォンの設定画面から\nBluetoothをONにしてください";
+
+//S-02-4
+"PopupTitle4" = "接続先を探しています…";
+"PopupMessage4" = "「Smart Watch NEO」を手元にご用意\nください。";
+
+//S-02-5
+"PopupTitle5" = "「Smart Watch NEO」が\n見つかりました";
+"PopupSubMessage5" = "※複数表示された場合は、接続先を選択してください。";
+
+
+//S-02-6
+"PopupTitle6" = "「Smart Watch NEO」が\n見つかりませんでした";
+"PopupMessage6" = "「Smart Watch NEO」を手元に用意\nいただき、再度お試しください";
+"PopupSubMessage6" = "※他のスマートフォン・タブレットと接続中の\n「Smart Watch NEO」は表示されません。";

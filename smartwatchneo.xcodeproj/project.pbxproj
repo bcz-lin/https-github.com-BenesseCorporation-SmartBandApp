@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8142580D2ABA93840081F528 /* InitialSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8142580C2ABA93840081F528 /* InitialSettingView.swift */; };
+		8142580F2ABA93F30081F528 /* InitialSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8142580E2ABA93F30081F528 /* InitialSettingController.swift */; };
+		814258122ABA9D150081F528 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 814258142ABA9D150081F528 /* Localizable.strings */; };
+		814258162ABAAA180081F528 /* SmartBandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814258152ABAAA180081F528 /* SmartBandManager.swift */; };
+		814258182ABAAB7E0081F528 /* InitialSettingBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814258172ABAAB7E0081F528 /* InitialSettingBaseView.swift */; };
 		D35CBFE52AB42A290057853B /* smartwatchneoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CBFE42AB42A290057853B /* smartwatchneoApp.swift */; };
 		D35CBFE72AB42A290057853B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CBFE62AB42A290057853B /* ContentView.swift */; };
 		D35CBFE92AB42A2A0057853B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35CBFE82AB42A2A0057853B /* Assets.xcassets */; };
@@ -34,6 +39,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8142580C2ABA93840081F528 /* InitialSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSettingView.swift; sourceTree = "<group>"; };
+		8142580E2ABA93F30081F528 /* InitialSettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSettingController.swift; sourceTree = "<group>"; };
+		814258132ABA9D150081F528 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		814258152ABAAA180081F528 /* SmartBandManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartBandManager.swift; sourceTree = "<group>"; };
+		814258172ABAAB7E0081F528 /* InitialSettingBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSettingBaseView.swift; sourceTree = "<group>"; };
 		D35CBFE12AB42A290057853B /* smartwatchneo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartwatchneo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35CBFE42AB42A290057853B /* smartwatchneoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartwatchneoApp.swift; sourceTree = "<group>"; };
 		D35CBFE62AB42A290057853B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +103,7 @@
 				D35CBFE82AB42A2A0057853B /* Assets.xcassets */,
 				D35CBFEA2AB42A2A0057853B /* smartwatchneo.entitlements */,
 				D35CBFEB2AB42A2A0057853B /* Preview Content */,
+				814258142ABA9D150081F528 /* Localizable.strings */,
 			);
 			path = smartwatchneo;
 			sourceTree = "<group>";
@@ -118,6 +129,8 @@
 		D35CBFFA2AB444EE0057853B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8142580E2ABA93F30081F528 /* InitialSettingController.swift */,
+				814258152ABAAA180081F528 /* SmartBandManager.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -153,6 +166,8 @@
 		D35CBFFF2AB444EF0057853B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8142580C2ABA93840081F528 /* InitialSettingView.swift */,
+				814258172ABAAB7E0081F528 /* InitialSettingBaseView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -207,6 +222,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = D35CBFD82AB42A290057853B;
 			productRefGroup = D35CBFE22AB42A290057853B /* Products */;
@@ -224,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D35CBFED2AB42A2A0057853B /* Preview Assets.xcassets in Resources */,
+				814258122ABA9D150081F528 /* Localizable.strings in Resources */,
 				D35CBFE92AB42A2A0057853B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,11 +253,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				D35CBFE72AB42A290057853B /* ContentView.swift in Sources */,
+				8142580F2ABA93F30081F528 /* InitialSettingController.swift in Sources */,
+				8142580D2ABA93840081F528 /* InitialSettingView.swift in Sources */,
+				814258182ABAAB7E0081F528 /* InitialSettingBaseView.swift in Sources */,
 				D35CBFE52AB42A290057853B /* smartwatchneoApp.swift in Sources */,
+				814258162ABAAA180081F528 /* SmartBandManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		814258142ABA9D150081F528 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				814258132ABA9D150081F528 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D35CBFEE2AB42A2A0057853B /* Debug */ = {
